@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: rgb(199, 199, 199);
+}
+
+.flex-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(144, 186, 241);
+    width: 100%;
+    height: 40px;
+}
+
+.flex-1-child
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+}
+
+.chrome
+{
+  width: 130px; 
+}
+
+.navig
+{
+  border: 1px solid black;  
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+.navig:active
+{
+    background-color: rgb(70, 70, 70);
+    
+}
+
+.navig:hover{
+    cursor: pointer;
+}
+
+.chromebook
+{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 195, 205), rgb(88, 174, 255), rgb(255, 255, 115));
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+.buynow
+{
+    height: 15px;
+    width: 80px;
+    background-color: rgb(77, 77, 255);
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+
+}
+
+.laptop
+{
+    height: 120px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 165px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px 2px grey;
+
+}
+
+.flex-column:hover
+{
+    box-shadow: 3px 3px 5px 4px grey;
+}
+
+
+.buynow-2
+{
+    height: 15px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+     
+}
+
+.footer
+{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.fa-copyright
+{
+    position: absolute;
+    left: 44%;
+    top: 20%;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width: 500px)
+{
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body
+    {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    .flex-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(144, 186, 241);
+        
+        height: 40px;
+    }
+    
+    .flex-1-child
+    {
+       
+        visibility: collapse;
+    }
+    
+    .chrome
+    {
+      width: 130px; 
+    }
+    
+    
+    
+    
+    
+    .chromebook
+    {
+        height: 80%;
+        width: 100%;
+        background-image: linear-gradient(rgb(255, 195, 205), rgb(88, 174, 255), rgb(255, 255, 115));
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        margin: 30px 0px 30px 0px;
+    }
+    
+    .buynow
+    {
+        height: 15px;
+        width: 80px;
+        background-color: rgb(77, 77, 255);
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+        border-radius: 20px;
+        position: relative;
+        left: 30px;
+    
+    }
+    
+    .laptop
+    {
+        height: 20%;
+    }
+    
+    .container
+    {
+        display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    
+    .flex-column
+    {
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+        height: 165px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 2px 2px 3px 2px grey;
+        margin: 20px;
+    }
+    
+    .flex-column:hover
+    {
+        box-shadow: 3px 3px 5px 4px grey;
+    }
+    
+    
+    .buynow-2
+    {
+        height: 15px;
+        width: 90px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+        border-radius: 20px;
+         
+    }
+    
+    .footer
+    {
+        height: 30px;
+        width: 100%;
+        background-color: rgb(143, 143, 143);
+        text-align: center;
+        padding: 5px;
+        margin-top: 50px;
+        position: relative;
+    }
+    
+    .fa-copyright
+    {
+        position: absolute;
+        left: 33%;
+        top: 20%;
+    }   
+}
